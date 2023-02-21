@@ -1,0 +1,31 @@
+.shop {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+.cap, .sweater, .pants {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cap_img, .sweater_img, .pants_img {
+    height: 100%;
+}
+.cap_img, .cap_title, .cap_pries, .basket_btn,
+.sweater_img, .sweater_title, .sweater_pries, 
+.pants_img, .pants_title, .pants_pries {
+    margin-left: 50px;
+}
+.cap, .sweater, .pants {
+    margin-top: 10px;
+    border-top: 1px solid black;
+}
+.basket_btn {
+    height: 50px;
+    width: 100px;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+}
