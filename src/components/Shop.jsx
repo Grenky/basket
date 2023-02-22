@@ -1,9 +1,11 @@
 import React from "react"
 import '../styles/Shop.css';
 
+
 export default function Shop() {
     return(
         <div className="shop">
+            
         <div className="cap">
             <img className="cap_img" alt="cap" src="./images/20210730173747_005638942_50.jpg"></img>
             <p className="cap_title">cap</p>
@@ -22,8 +24,6 @@ export default function Shop() {
             <p className="pants_pries">pries : 9999$</p>
             <button className="basket_btn">in basket</button>
         </div>
-        <div className="boots"></div>
-        
     </div>
     )
 }
